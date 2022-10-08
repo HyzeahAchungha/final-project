@@ -1,0 +1,30 @@
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-radius: 10px;
+    overflow: hidden;
+  }  
+  .book{
+    
+    border: 20rem;
+    color: brown;
+    font-size: larger;
+    
+  }
+  .highlight {
+    color:red;
+ }
+ .njama{
+  overflow: hidden;
+ }
+  .start{
+    margin-left: 5%;
+  }
+  .priority{
+    border-radius: 5rem;
+  }

@@ -1,0 +1,115 @@
+.card-container{
+    width: 300px;
+    overflow: hidden;
+    box-shadow:0px 0px 15px 0px ;
+    margin: 5px;
+}
+.card-container:hover{
+/* transform: scale(0.7); */
+box-shadow: 0px 0px 15px 0px;
+margin: 5px;
+}
+.image-container{
+    overflow: hidden;
+    height: 200px;
+
+}
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+
+
+}
+.card-title{
+    margin-bottom: 0.5rem;
+
+
+}
+.card-body{
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+
+}
+.btn button{
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+.button:hover{
+    background: brown;
+}
+h3,p{
+    /*Resetting default  value*/
+  margin: 0;
+  padding: 0;  
+
+
+}
+a{
+    color: aqua;
+    text-decoration: none;
+
+}
+.base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,20rem));
+    justify-content: center;
+}
+/* .card-containeer{
+    width: 300px;
+    overflow: hidden;
+    box-shadow:0px 0px 15px 0px ;
+}
+.card-containeer{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.image-containeer{
+    overflow: hidden;
+    height: 200px;
+}
+.card-contentt{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+.card-titlle{
+    margin-bottom: 0.5rem;
+
+}
+.card-boddy{
+
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+}
+.btnn button{
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+.button3.button3:hover{
+    background: brown;
+}
+h2,p{
+    /*Resetting default  value*/
+  /* margin: 0;
+  padding: 0;  
+
+
+}
+a{
+    color: aqua;
+    text-decoration: none;
+
+} */ 

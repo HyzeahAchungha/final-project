@@ -1,0 +1,48 @@
+/* .navlink .active{
+    color:var(--primary-color)
+  } */
+  
+  
+
+ .two:hover{
+   color: brown;
+   background-color: white;
+   padding: 3px;
+   border-radius: 10px;
+   transition: 0.7s ease-in-out;
+
+ }
+ .aunty{
+   
+   
+   scroll-margin: top;
+   cursor: pointer;
+   
+
+
+ }
+ /* index.module.css: */
+
+#dropdownMenu {
+  background-color: #002037;
+  color: #e2dec0 !important;
+  margin: 0px 10px;
+}
+
+.dropdownItem {
+  font-size: 21px;
+  color: #e2dec0 !important;
+}
+.pink{
+  padding: 3px;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+.navy{
+  background-color: blue;
+}
+.los{
+  margin-right: 10rem;
+  margin-bottom: 20rem;
+  text-align: start;
+}

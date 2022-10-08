@@ -1,0 +1,13 @@
+.book{
+    color: burlywood;
+    border: 10rem;
+    margin-left: 35rem;
+    /* background-color:skyblue ; */
+    /* margin-top: 50rem;
+    */
+}
+.book:hover{
+    transition: 0.7s ease-in-out;
+    color: white;
+    
+}

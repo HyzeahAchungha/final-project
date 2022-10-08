@@ -1,0 +1,29 @@
+
+ .submit{
+     color: burlywood; 
+     
+     border-radius: 5rem;
+    margin-left: 3%;
+
+}
+.submit:hover{
+     /* background-color:lightseagreen;  */
+    color:white;
+    border-radius: 5rem; 
+    transition: 0.7s ease-in;
+   
+}
+.like{
+   
+   width: 20rem;
+   height: 20rem;
+   margin-left: 80%;
+   margin-top: 5%;
+   background-color: lightseagreen;
+   
+}
+
+
+
+
+   

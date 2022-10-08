@@ -1,0 +1,19 @@
+  
+ .bgimg{
+     background-image: url('../../../public/images/istockphoto.jpg'); 
+    height: 100vh;
+    width: 100vw;
+   background-repeat: no-repeat;
+   overflow: hidden;
+    background-size:cover ;
+    margin: "0px", 
+    
+}
+.fave{
+    margin-top: 3rem;  
+}
+
+.calm{
+   padding-top: 20%; 
+   margin-right: 5%;
+}

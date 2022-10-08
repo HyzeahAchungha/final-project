@@ -1,0 +1,63 @@
+.run{
+    background-image: url("../../../public/images/istockphoto.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+      background-size: cover; 
+      overflow-x: hidden;
+       margin: "0px",  
+
+}
+.pre{
+    margin-left: 4%;
+}
+.subling{
+    border-radius: 5rem;
+    height: 3rem;
+    width: 5rem;
+    /* background-color: lightseagreen; */
+    margin-left: 20%;
+    margin-top: 3px;
+
+   
+}
+.subling:hover{
+     
+    color:white;
+    
+}
+.send{
+    height: 15rem;
+    width: 15rem;
+}
+/* .foot{
+    background-color: black;
+    padding: 5rem;
+    margin-top: 20px;
+} */
+ .former{
+    background-color:lightseagreen;
+    width: 5%;
+    height: 10%;
+   overflow-x: hidden; 
+} 
+.dee{
+    margin-left: 50px;
+    text-align: end;
+    overflow-x: hidden;
+}
+.over{
+    overflow: hidden;
+}
+.posture{
+    padding-top: 30rem;
+}
+footer{
+    background-color: black;
+    margin-top: 5rem;
+    color: white;
+}
+.green{
+    margin-top: 3rem;
+    
+}

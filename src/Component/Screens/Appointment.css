@@ -15,13 +15,18 @@
 }
 .like{
    
-   width: 20rem;
+   width: 50rem;
    height: 20rem;
    margin-left: 80%;
    margin-top: 5%;
-   background-color: lightseagreen;
-   
+    background-color: lightseagreen; 
+
 }
+
+.inputo{
+    margin-left: 0rem;
+} 
+
 
 
 

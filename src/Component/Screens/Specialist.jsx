@@ -4,7 +4,6 @@ import 'react-calendar/dist/Calendar.css';
 
 import { useEffect } from "react";
 import { useState } from "react"
-import DatePicker from "react-multi-date-picker"
 import Aos from "aos"
 
 import "react-datepicker/dist/react-datepicker.css";
@@ -53,7 +52,7 @@ const Specialist = () => {
     // })
     const isDateAndTime=await server.findOne({date,time})
 	if(isDateAndTime){
-		const  error=new Error("please the date and te time already exist ,please choice another one ")
+		const  error=new Error("please the date and the time already exist ,please choice another one ")
 		error.status=500
 		return (error)
 	}

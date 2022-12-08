@@ -1,12 +1,11 @@
 
 import "./Appointment.css"
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect } from "react"
 import axios from "axios";
-import { eventWrapper } from "@testing-library/user-event/dist/utils";
+
 const Appointment = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [age, setAge] = useState("");
   const [gender, setGender] = useState("");
   const [server, setServer] = useState('')
 
@@ -25,7 +24,7 @@ const Appointment = () => {
       name: name,
       email: email,
       gender: gender,
-      age: age,
+      
 
     };
   };
@@ -36,9 +35,7 @@ const Appointment = () => {
   const changeEmail = (event) => {
     setEmail(event.target.value);
   };
-  const changeAge = (event) => {
-    setAge(event.target.value);
-  };
+  
   const changeGender = (event) => {
     setGender(event.target.value);
   };
@@ -48,7 +45,7 @@ const Appointment = () => {
   }
 
   const submit = async () => {
-    const server = await axios.post(`http://localhost:4000/add-Server`, { name, email, gender, age })
+    const server = await axios.post(`http://localhost:4000/add-Server`, { name, email, gender })
     setServer([server.data, ...server,])
   }
 
@@ -70,21 +67,18 @@ const Appointment = () => {
     <div >
       <div className="  col-5 d-sm-12 d-sm-block text-center d-md-6 d-md-flex ">
         <form className="like col-6 d-sm-12 d-sm-block " action="" onSubmit={submitHandeler} >
-          <p> Your Name
+          <p className="inputo"> Your Name
             <br />
-            <input type="name" onChange={changeName} placeholder="Name" /></p>
+            <input type="name" className="inputo" onChange={changeName} placeholder="Name" /></p>
           <br />
-          <p> Your email
+          <p className="inputo"> Your email
             <br />
-            <input type="email" onChange={changeEmail} placeholder="Email" /></p>
+            <input type="email" className="inputo" onChange={changeEmail} placeholder="Email" /></p>
           <br />
-          <p> Your age
+          
+          <p className="inputo"> Your gender
             <br />
-            <input type="number" onChange={changeAge} placeholder="Age" /></p>
-          <br />
-          <p> Your gender
-            <br />
-            <input type="text" onChange={changeGender} placeholder="Gender" /></p>
+            <input type="text" className="inputo" onChange={changeGender} placeholder="Gender" /></p>
           <br />
           <br />
           <button className="submit btn-primary" onClick={submit}>submit</button>

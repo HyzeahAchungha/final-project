@@ -4,6 +4,7 @@ import { useEffect } from "react"
 import "./Home.css"
 import Button from "./Regbutton/Button"
 import Card from "./card"
+
 const Home = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 })
@@ -14,7 +15,7 @@ const Home = () => {
                 <h3 className="m-5 calm text-center ">Welcome to MEDIC. Get heal just with one click .
                 </h3>
                 <Button />
-
+                
             </div>
 
             <br />
@@ -24,7 +25,7 @@ const Home = () => {
                  today from the confort of your home. Medic provides you  with satisfactory work.</p>
             </div>
 
-            <div className="d-sm-12 d-md-6 d-md-flex d-sm-block">
+            <div className="d-sm-12 d-md-6 d-md-flex d-sm-block row">
                 <Card title='Dentist'
                     imageUrl='./images/picture.jpg'
                     body='Care for the health of your teeth. Brighten your smile. Make sure you grab all the opportunities around you with a breath of fresh air.' />
@@ -47,7 +48,7 @@ const Home = () => {
 
 
             </div>
-            <div className="d-sm-12 d-md-6 d-md-flex d-sm-block ">
+            <div className="d-sm-12 d-md-6 d-md-flex d-sm-block row">
                 <Card title='Dentist'
                     imageUrl='./images/lap.png'
                     body='Care for the health of your teeth. Brighten your smile. Make sure you grab all the opportunities around you with a breath of fresh air.' />

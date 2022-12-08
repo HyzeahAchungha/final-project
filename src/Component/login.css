@@ -1,0 +1,22 @@
+.login{
+    width: 20rem;
+   height: 20rem;
+   margin-left: 20%;
+   margin-top: 5%;
+   background-color: lightseagreen;
+}
+button{
+    margin-left: 8rem;
+    border-radius: 5rem;
+}
+h4{
+    margin-left: 8rem; 
+    color: white; 
+   
+}
+input{
+    margin-left: 5rem;    
+}
+label{
+    margin-left: 5rem;
+}

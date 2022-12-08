@@ -84,7 +84,7 @@ const ContactUs = () => {
       </div>
       <div className=" d-sm-12 d-md-6 d-md-flex d-sm-block pt-3  text-center lolipo">
 
-        <form action="" onSubmit={submitHandeler} className=" col-6 d-sm-12 d-sm-block former ">
+        <form action="" onSubmit={submitHandeler} className=" col-6 d-sm-12 former ">
           <p>Your name
             <br />
             <input type=" name" onChange={changeName} placeholder="Name" />
@@ -115,6 +115,7 @@ const ContactUs = () => {
             how we can make your life better. Your health is your wealth.</p>
         </div>
       </div>
+      <br />
       < button className="subling text-center btn-primary " onClick={submit}>Send</button>
       {/* {serverList.map((server, index) => {
                         return (

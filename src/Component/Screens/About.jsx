@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <br />
             <h2>Meet our team</h2>
-            <div className=" d-sm-12 d-md-6 d-md-flex d-sm-block" >
+            <div className=" d-sm-12 d-md-6 d-md-flex d-sm-block row" >
 
                 <Card title='Dentist'
                     imageUrl='./images/picture.jpg'
@@ -44,7 +44,7 @@ const About = () => {
 
                 />
             </div>
-            <div className=" d-sm-12 d-lg-9 d-md-flex d-sm-block" >
+            <div className=" d-sm-12 d-lg-9 d-md-flex d-sm-block row" >
                 <Card title='Dentist'
                     imageUrl='./images/America.jpg'
                     body='Care for the health of your teeth. Brighten your smile. Make sure you grab all the opportunities around you with a breath of fresh air.' />
@@ -64,7 +64,7 @@ const About = () => {
                 />
 
             </div>
-            <div className=" d-sm-12 d-lg-9 d-md-flex d-sm-block" >
+            <div className=" d-sm-12 d-lg-9 d-md-flex d-sm-block row " >
                 <Card title='Dentist'
                     imageUrl='./images/lap.png'
                     body='Care for the health of your teeth. Brighten your smile. Make sure you grab all the opportunities around you with a breath of fresh air.' />
